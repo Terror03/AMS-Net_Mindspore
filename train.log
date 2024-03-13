@@ -1,0 +1,1080 @@
+None
+{'arch': 'resnet50',
+ 'batch_size': 16,
+ 'checkpoint_file_path': '',
+ 'checkpoint_path': './checkpoint/TSM_somethingv2_RGB/ckpt_0/',
+ 'checkpoint_url': '',
+ 'clip_gradient': 20.0,
+ 'config_path': '/home/sjyjxz/models-r2.2/research/cv/tsm/src/config/tsm_sthv2_config_gpu.yaml',
+ 'consensus_type': 'avg',
+ 'data_path': '/home/sjyjxz/models-r2.2/research/cv/tsm/data',
+ 'data_url': '',
+ 'dataset': 'somethingv2',
+ 'dense_sample': False,
+ None
+'device_target': 'GPU',
+ 'dropout': 0.5,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epochs': 50,
+ 'eval_freq': 1,
+ 'evaluate': False,
+ 'flow_prefix': None,
+ 'gpus': 'None',
+ 'img_feature_dim': 256,
+ 'k': 3,
+ 'load_path': './src/pretrained/',
+ 'loss_type': 'nll',
+ 'lr': 0.005,
+ 'lr_steps': [20.0, 40.0],
+ 'lr_type': 'step',
+ 'modality': 'RGB',
+ 'momentum': 0.9,
+ 'no_partialbn': True,
+ 'non_local': False,
+ 'num_class': 174,
+ 'num_segments': 8,
+ 'output_path': '/cache/train/',
+ 'pretrain': 'imagenet',
+ 'print_freq': 20,
+ 'rank': 0,
+ 'resume': None,
+ 'root_log': 'log',
+ 'root_model': './checkpoint',
+ 'root_path': None,
+ 'run_distribute': False,
+ 'shift': True,
+ 'shift_div': 8,
+ 'shift_place': 'blockres',
+ 'snapshot_pref': None,
+ 'start_epoch': 0,
+ 'suffix': 'None',
+ 'temporal_pool': False,
+ 'test_filename': 'tsm-50_2639.ckpt',
+ 'train_list': None,
+ 'train_url': '',
+ 'tune_from': 'tsm_RGB.ckpt',
+ 'val_list': None,
+ 'weight_decay': 0.0005,
+ 'workers': 8}
+Please check the above information for the configurations
+somethingv2: 174 classes
+storing name: TSM_somethingv2_RGB_resnet50_shift8_blockres_avg_segment8_e50_None
+{'arch': 'resnet50',
+ 'batch_size': 16,
+ 'checkpoint_file_path': '',
+ 'checkpoint_path': './checkpoint/TSM_somethingv2_RGB/ckpt_0/',
+ 'checkpoint_url': '',
+ 'clip_gradient': 20.0,
+ 'config_path': '/home/sjyjxz/models-r2.2/research/cv/tsm/src/config/tsm_sthv2_config_gpu.yaml',
+ 'consensus_type': 'avg',
+ 'data_path': '/home/sjyjxz/models-r2.2/research/cv/tsm/data',
+ 'data_url': '',
+ 'dataset': 'somethingv2',
+ 'dense_sample': False,
+ 'device_target': 'GPU',
+ 'dropout': 0.5,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epochs': 50,
+ 'eval_freq': 1,
+ 'evaluate': False,
+ 'flow_prefix': None,
+ 'gpus': 'None',
+ 'img_feature_dim': 256,
+ 'k': 3,
+ 'load_path': './src/pretrained/',
+ 'loss_type': 'nll',
+ 'lr': 0.005,
+ 'lr_steps': [20.0, 40.0],
+ 'lr_type': 'step',
+ 'modality': 'RGB',
+ 'momentum': 0.9,
+ 'no_partialbn': True,
+ 'non_local': False,
+ 'num_class': 174,
+ 'num_segments': 8,
+ 'output_path': '/cache/train/',
+ 'pretrain': 'imagenet',
+ 'print_freq': 20,
+ 'rank': 0,
+ 'resume': None,
+ 'root_log': 'log',
+ 'root_model': './checkpoint',
+ 'root_path': None,
+ 'run_distribute': False,
+ 'shift': True,
+ 'shift_div': 8,
+ 'shift_place': 'blockres',
+ 'snapshot_pref': None,
+ 'start_epoch': 0,
+ 'suffix': 'None',
+ 'temporal_pool': False,
+ 'test_filename': 'tsm-50_2639.ckpt',
+ 'train_list': None,
+ 'train_url': '',
+ 'tune_from': 'tsm_RGB.ckpt',
+ 'val_list': None,
+ 'weight_decay': 0.0005,
+ 'workers': 8}
+Please check the above information for the configurations
+None
+somethingv2: 174 classes
+storing name: TSM_somethingv2_RGB_resnet50_shift8_blockres_avg_segment8_e50_None
+{'arch': 'resnet50',
+ 'batch_size': 16,
+ 'checkpoint_file_path': '',
+ 'checkpoint_path': './checkpoint/TSM_somethingv2_RGB/ckpt_0/',
+ 'checkpoint_url': '',
+ 'clip_gradient': 20.0,
+ 'config_path': '/home/sjyjxz/models-r2.2/research/cv/tsm/src/config/tsm_sthv2_config_gpu.yaml',
+ 'consensus_type': 'avg',
+ 'data_path': '/home/sjyjxz/models-r2.2/research/cv/tsm/data',
+ 'data_url': '',
+ 'dataset': 'somethingv2',
+ 'dense_sample': False,
+ 'device_target': 'GPU',
+ 'dropout': 0.5,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epochs': 50,
+ 'eval_freq': 1,
+ 'evaluate': False,
+ 'flow_prefix': None,
+ 'gpus': 'None',
+ 'img_feature_dim': 256,
+ 'k': 3,
+ 'load_path': './src/pretrained/',
+ 'loss_type': 'nll',
+ 'lr': 0.005,
+ 'lr_steps': [20.0, 40.0],
+ 'lr_type': 'step',
+ 'modality': 'RGB',
+ 'momentum': 0.9,
+ 'no_partialbn': True,
+ 'non_local': False,
+ 'num_class': 174,
+ 'num_segments': 8,
+ 'output_path': '/cache/train/',
+ 'pretrain': 'imagenet',
+ 'print_freq': 20,
+ 'rank': 0,
+ 'resume': None,
+ 'root_log': 'log',
+ 'root_model': './checkpoint',
+ 'root_path': None,
+ 'run_distribute': False,
+ 'shift': True,
+ 'shift_div': 8,
+ 'shift_place': 'blockres',
+ 'snapshot_pref': None,
+ 'start_epoch': 0,
+ 'suffix': 'None',
+ 'temporal_pool': False,
+ 'test_filename': 'tsm-50_2639.ckpt',
+ 'train_list': None,
+ 'train_url': '',
+ 'tune_from': 'tsm_RGB.ckpt',
+ 'val_list': None,
+ 'weight_decay': 0.0005,
+ 'workers': 8}
+Please check the above information for the configurations
+somethingv2: 174 classes
+storing name: TSM_somethingv2_RGB_resnet50_shift8_blockres_avg_segment8_e50_None
+None
+{'arch': 'resnet50',
+ 'batch_size': 16,
+ 'checkpoint_file_path': '',
+ 'checkpoint_path': './checkpoint/TSM_somethingv2_RGB/ckpt_0/',
+ 'checkpoint_url': '',
+ 'clip_gradient': 20.0,
+ 'config_path': '/home/sjyjxz/models-r2.2/research/cv/tsm/src/config/tsm_sthv2_config_gpu.yaml',
+ 'consensus_type': 'avg',
+ 'data_path': '/home/sjyjxz/models-r2.2/research/cv/tsm/data',
+ 'data_url': '',
+ 'dataset': 'somethingv2',
+ 'dense_sample': False,
+ 'device_target': 'GPU',
+ 'dropout': 0.5,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epochs': 50,
+ 'eval_freq': 1,
+ 'evaluate': False,
+ 'flow_prefix': None,
+ 'gpus': 'None',
+ 'img_feature_dim': 256,
+ 'k': 3,
+ 'load_path': './src/pretrained/',
+ 'loss_type': 'nll',
+ 'lr': 0.005,
+ 'lr_steps': [20.0, 40.0],
+ 'lr_type': 'step',
+ 'modality': 'RGB',
+ 'momentum': 0.9,
+ 'no_partialbn': True,
+ 'non_local': False,
+ 'num_class': 174,
+ 'num_segments': 8,
+ 'output_path': '/cache/train/',
+ 'pretrain': 'imagenet',
+ 'print_freq': 20,
+ 'rank': 0,
+ 'resume': None,
+ 'root_log': 'log',
+ 'root_model': './checkpoint',
+ 'root_path': None,
+ 'run_distribute': False,
+ 'shift': True,
+ 'shift_div': 8,
+ 'shift_place': 'blockres',
+ 'snapshot_pref': None,
+ 'start_epoch': 0,
+ 'suffix': 'None',
+ 'temporal_pool': False,
+ 'test_filename': 'tsm-50_2639.ckpt',
+ 'train_list': None,
+ 'train_url': '',
+ 'tune_from': 'tsm_RGB.ckpt',
+ 'val_list': None,
+ 'weight_decay': 0.0005,
+ 'workers': 8}
+Please check the above information for the configurations
+somethingv2: 174 classes
+storing name: TSM_somethingv2_RGB_resnet50_shift8_blockres_avg_segment8_e50_None
+None
+{'arch': 'resnet50',
+ 'batch_size': 16,
+ 'checkpoint_file_path': '',
+ 'checkpoint_path': './checkpoint/TSM_somethingv2_RGB/ckpt_0/',
+ 'checkpoint_url': '',
+ 'clip_gradient': 20.0,
+ 'config_path': '/home/sjyjxz/models-r2.2/research/cv/tsm/src/config/tsm_sthv2_config_gpu.yaml',
+ 'consensus_type': 'avg',
+ 'data_path': '/home/sjyjxz/models-r2.2/research/cv/tsm/data',
+ 'data_url': '',
+ 'dataset': 'somethingv2',
+ 'dense_sample': False,
+ 'device_target': 'GPU',
+ 'dropout': 0.5,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epochs': 50,
+ 'eval_freq': 1,
+ 'evaluate': False,
+ 'flow_prefix': None,
+ 'gpus': 'None',
+ 'img_feature_dim': 256,
+ 'k': 3,
+ 'load_path': './src/pretrained/',
+ 'loss_type': 'nll',
+ 'lr': 0.005,
+ 'lr_steps': [20.0, 40.0],
+ 'lr_type': 'step',
+ 'modality': 'RGB',
+ 'momentum': 0.9,
+ 'no_partialbn': True,
+ 'non_local': False,
+ 'num_class': 174,
+ 'num_segments': 8,
+ 'output_path': '/cache/train/',
+ 'pretrain': 'imagenet',
+ 'print_freq': 20,
+ 'rank': 0,
+ 'resume': None,
+ 'root_log': 'log',
+ 'root_model': './checkpoint',
+ 'root_path': None,
+ 'run_distribute': False,
+ 'shift': True,
+ 'shift_div': 8,
+ 'shift_place': 'blockres',
+ 'snapshot_pref': None,
+ 'start_epoch': 0,
+ 'suffix': 'None',
+ 'temporal_pool': False,
+ 'test_filename': 'tsm-50_2639.ckpt',
+ 'train_list': None,
+ 'train_url': '',
+ 'tune_from': 'tsm_RGB.ckpt',
+ 'val_list': None,
+ 'weight_decay': 0.0005,
+ 'workers': 8}
+Please check the above information for the configurations
+somethingv2: 174 classes
+storing name: TSM_somethingv2_RGB_resnet50_shift8_blockres_avg_segment8_e50_None
+None
+None
+{'arch': 'resnet50',
+ 'batch_size': 16,
+ 'checkpoint_file_path': '',
+ 'checkpoint_path': './checkpoint/TSM_somethingv2_RGB/ckpt_0/',
+ 'checkpoint_url': '',
+ 'clip_gradient': 20.0,
+ 'config_path': '/home/sjyjxz/models-r2.2/research/cv/tsm/src/config/tsm_sthv2_config_gpu.yaml',
+ 'consensus_type': 'avg',
+ 'data_path': '/home/sjyjxz/models-r2.2/research/cv/tsm/data',
+ 'data_url': '',
+ 'dataset': 'somethingv2',
+ 'dense_sample': False,
+ 'device_target': 'GPU',
+ 'dropout': 0.5,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epochs': 50,
+ 'eval_freq': 1,
+ 'evaluate': False,
+ 'flow_prefix': None,
+ 'gpus': 'None',
+ 'img_feature_dim': 256,
+ 'k': 3,
+ 'load_path': './src/pretrained/',
+ 'loss_type': 'nll',
+ 'lr': 0.005,
+ 'lr_steps': [20.0, 40.0],
+ 'lr_type': 'step',
+ 'modality': 'RGB',
+ 'momentum': 0.9,
+ 'no_partialbn': True,
+ 'non_local': False,
+ 'num_class': 174,
+ 'num_segments': 8,
+ 'output_path': '/cache/train/',
+ 'pretrain': 'imagenet',
+ 'print_freq': 20,
+ 'rank': 0,
+ 'resume': None,
+ 'root_log': 'log',
+ 'root_model': './checkpoint',
+ 'root_path': None,
+ 'run_distribute': False,
+ 'shift': True,
+ 'shift_div': 8,
+ 'shift_place': 'blockres',
+ 'snapshot_pref': None,
+ 'start_epoch': 0,
+ 'suffix': 'None',
+ 'temporal_pool': False,
+ 'test_filename': 'tsm-50_2639.ckpt',
+ 'train_list': None,
+ 'train_url': '',
+ 'tune_from': 'tsm_RGB.ckpt',
+ 'val_list': None,
+ 'weight_decay': 0.0005,
+ 'workers': 8}
+Please check the above information for the configurations
+somethingv2: 174 classes
+storing name: TSM_somethingv2_RGB_resnet50_shift8_blockres_avg_segment8_e50_None
+{'arch': 'resnet50',
+ 'batch_size': 16,
+ 'checkpoint_file_path': '',
+ 'checkpoint_path': './checkpoint/TSM_somethingv2_RGB/ckpt_0/',
+ 'checkpoint_url': '',
+ 'clip_gradient': 20.0,
+ 'config_path': '/home/sjyjxz/models-r2.2/research/cv/tsm/src/config/tsm_sthv2_config_gpu.yaml',
+ 'consensus_type': 'avg',
+ 'data_path': '/home/sjyjxz/models-r2.2/research/cv/tsm/data',
+ 'data_url': '',
+ 'dataset': 'somethingv2',
+ 'dense_sample': False,
+ 'device_target': 'GPU',
+ 'dropout': 0.5,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epochs': 50,
+ 'eval_freq': 1,
+ 'evaluate': False,
+ 'flow_prefix': None,
+ 'gpus': 'None',
+ 'img_feature_dim': 256,
+ 'k': 3,
+ 'load_path': './src/pretrained/',
+ 'loss_type': 'nll',
+ 'lr': 0.005,
+ 'lr_steps': [20.0, 40.0],
+ 'lr_type': 'step',
+ 'modality': 'RGB',
+ 'momentum': 0.9,
+ 'no_partialbn': True,
+ 'non_local': False,
+ 'num_class': 174,
+ 'num_segments': 8,
+ 'output_path': '/cache/train/',
+ 'pretrain': 'imagenet',
+ 'print_freq': 20,
+ 'rank': 0,
+ 'resume': None,
+ 'root_log': 'log',
+ 'root_model': './checkpoint',
+ 'root_path': None,
+ 'run_distribute': False,
+ 'shift': True,
+ 'shift_div': 8,
+ 'shift_place': 'blockres',
+ 'snapshot_pref': None,
+ 'start_epoch': 0,
+ 'suffix': 'None',
+ 'temporal_pool': False,
+ 'test_filename': 'tsm-50_2639.ckpt',
+ 'train_list': None,
+ 'train_url': '',
+ 'tune_from': 'tsm_RGB.ckpt',
+ 'val_list': None,
+ 'weight_decay': 0.0005,
+ 'workers': 8}
+Please check the above information for the configurations
+None
+somethingv2: 174 classes
+storing name: TSM_somethingv2_RGB_resnet50_shift8_blockres_avg_segment8_e50_None
+{'arch': 'resnet50',
+ 'batch_size': 16,
+ 'checkpoint_file_path': '',
+ 'checkpoint_path': './checkpoint/TSM_somethingv2_RGB/ckpt_0/',
+ 'checkpoint_url': '',
+ 'clip_gradient': 20.0,
+ 'config_path': '/home/sjyjxz/models-r2.2/research/cv/tsm/src/config/tsm_sthv2_config_gpu.yaml',
+ 'consensus_type': 'avg',
+ 'data_path': '/home/sjyjxz/models-r2.2/research/cv/tsm/data',
+ 'data_url': '',
+ 'dataset': 'somethingv2',
+ 'dense_sample': False,
+ 'device_target': 'GPU',
+ 'dropout': 0.5,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epochs': 50,
+ 'eval_freq': 1,
+ 'evaluate': False,
+ 'flow_prefix': None,
+ 'gpus': 'None',
+ 'img_feature_dim': 256,
+ 'k': 3,
+ 'load_path': './src/pretrained/',
+ 'loss_type': 'nll',
+ 'lr': 0.005,
+ 'lr_steps': [20.0, 40.0],
+ 'lr_type': 'step',
+ 'modality': 'RGB',
+ 'momentum': 0.9,
+ 'no_partialbn': True,
+ 'non_local': False,
+ 'num_class': 174,
+ 'num_segments': 8,
+ 'output_path': '/cache/train/',
+ 'pretrain': 'imagenet',
+ 'print_freq': 20,
+ 'rank': 0,
+ 'resume': None,
+ 'root_log': 'log',
+ 'root_model': './checkpoint',
+ 'root_path': None,
+ 'run_distribute': False,
+ 'shift': True,
+ 'shift_div': 8,
+ 'shift_place': 'blockres',
+ 'snapshot_pref': None,
+ 'start_epoch': 0,
+ 'suffix': 'None',
+ 'temporal_pool': False,
+ 'test_filename': 'tsm-50_2639.ckpt',
+ 'train_list': None,
+ 'train_url': '',
+ 'tune_from': 'tsm_RGB.ckpt',
+ 'val_list': None,
+ 'weight_decay': 0.0005,
+ 'workers': 8}
+Please check the above information for the configurations
+somethingv2: 174 classes
+storing name: TSM_somethingv2_RGB_resnet50_shift8_blockres_avg_segment8_e50_None
+run: 2 / 8
+run: 7 / 8
+run: 6 / 8
+run: 1 / 8
+run: 4 / 8
+run: 3 / 8
+run: 0 / 8
+run: 5 / 8
+load_path:./src/pretrained/tsm_RGB.ckpt
+load_path:./src/pretrained/tsm_RGB.ckpt
+load_path:./src/pretrained/tsm_RGB.ckpt
+load_path:./src/pretrained/tsm_RGB.ckpt
+load_path:./src/pretrained/tsm_RGB.ckpt
+load_path:./src/pretrained/tsm_RGB.ckpt
+load_path:./src/pretrained/tsm_RGB.ckpt
+load_path:./src/pretrained/tsm_RGB.ckpt
+Adding temporal shift...
+=> n_segment per stage: [8, 8, 8, 8]
+=> Processing stage with 3 blocks residual
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Processing stage with 4 blocks residual
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Processing stage with 6 blocks residual
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Processing stage with 3 blocks residual
+=> Using fold div: 8
+Adding temporal shift...
+=> n_segment per stage: [8, 8, 8, 8]
+=> Processing stage with 3 blocks residual
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Adding temporal shift...
+=> n_segment per stage: [8, 8, 8, 8]
+=> Processing stage with 3 blocks residual
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Processing stage with 4 blocks residual
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Processing stage with 4 blocks residual
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Processing stage with 6 blocks residual
+=> Using fold div: 8
+Adding temporal shift...
+=> n_segment per stage: [8, 8, 8, 8]
+=> Processing stage with 3 blocks residual
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Processing stage with 6 blocks residual
+=> Processing stage with 4 blocks residual
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Processing stage with 3 blocks residual
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Processing stage with 6 blocks residual
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Processing stage with 3 blocks residual
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Processing stage with 3 blocks residual
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Adding temporal shift...
+=> n_segment per stage: [8, 8, 8, 8]
+=> Processing stage with 3 blocks residual
+=> Using fold div: 8
+Adding temporal shift...
+=> n_segment per stage: [8, 8, 8, 8]
+=> Processing stage with 3 blocks residual
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+#################### NO FLIP!!!
+=> Using fold div: 8
+=> Processing stage with 4 blocks residual
+=> Using fold div: 8
+=> Processing stage with 4 blocks residual
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Adding temporal shift...
+=> n_segment per stage: [8, 8, 8, 8]
+=> Using fold div: 8
+=> Processing stage with 3 blocks residual
+=> Processing stage with 6 blocks residual
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Processing stage with 6 blocks residual
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Processing stage with 4 blocks residual
+=> Processing stage with 3 blocks residual
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+#################### NO FLIP!!!
+=> Using fold div: 8
+=> Using fold div: 8
+=> Processing stage with 3 blocks residual
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Processing stage with 6 blocks residual
+#################### NO FLIP!!!
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Processing stage with 3 blocks residual
+#################### NO FLIP!!!
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Adding temporal shift...
+=> n_segment per stage: [8, 8, 8, 8]
+=> Processing stage with 3 blocks residual
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+#################### NO FLIP!!!
+=> Processing stage with 4 blocks residual
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+#################### NO FLIP!!!
+=> Using fold div: 8
+=> Processing stage with 6 blocks residual
+=> Using fold div: 8
+#################### NO FLIP!!!
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Processing stage with 3 blocks residual
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+#################### NO FLIP!!!
+video number:168913
+video number:168913
+video number:168913
+video number:168913
+video number:168913
+video number:168913
+video number:168913
+video number:168913
+video number:24777
+group: first_conv_weight has 1 params, lr_mult: 1, decay_mult: 1
+group: normal_weight has 52 params, lr_mult: 1, decay_mult: 1
+group: BN scale/shift has 106 params, lr_mult: 1, decay_mult: 0
+group: lr5_weight has 1 params, lr_mult: 5, decay_mult: 1
+group: lr10_bias has 1 params, lr_mult: 10, decay_mult: 0
+video number:24777
+video number:24777
+group: first_conv_weight has 1 params, lr_mult: 1, decay_mult: 1
+group: normal_weight has 52 params, lr_mult: 1, decay_mult: 1
+group: BN scale/shift has 106 params, lr_mult: 1, decay_mult: 0
+group: lr5_weight has 1 params, lr_mult: 5, decay_mult: 1
+group: lr10_bias has 1 params, lr_mult: 10, decay_mult: 0
+group: first_conv_weight has 1 params, lr_mult: 1, decay_mult: 1
+group: normal_weight has 52 params, lr_mult: 1, decay_mult: 1
+group: BN scale/shift has 106 params, lr_mult: 1, decay_mult: 0
+group: lr5_weight has 1 params, lr_mult: 5, decay_mult: 1
+group: lr10_bias has 1 params, lr_mult: 10, decay_mult: 0
+video number:24777
+group: first_conv_weight has 1 params, lr_mult: 1, decay_mult: 1
+group: normal_weight has 52 params, lr_mult: 1, decay_mult: 1
+group: BN scale/shift has 106 params, lr_mult: 1, decay_mult: 0
+group: lr5_weight has 1 params, lr_mult: 5, decay_mult: 1
+group: lr10_bias has 1 params, lr_mult: 10, decay_mult: 0
+video number:24777
+video number:24777
+group: first_conv_weight has 1 params, lr_mult: 1, decay_mult: 1
+group: normal_weight has 52 params, lr_mult: 1, decay_mult: 1
+group: BN scale/shift has 106 params, lr_mult: 1, decay_mult: 0
+group: lr5_weight has 1 params, lr_mult: 5, decay_mult: 1
+group: lr10_bias has 1 params, lr_mult: 10, decay_mult: 0
+group: first_conv_weight has 1 params, lr_mult: 1, decay_mult: 1
+group: normal_weight has 52 params, lr_mult: 1, decay_mult: 1
+group: BN scale/shift has 106 params, lr_mult: 1, decay_mult: 0
+group: lr5_weight has 1 params, lr_mult: 5, decay_mult: 1
+group: lr10_bias has 1 params, lr_mult: 10, decay_mult: 0
+video number:24777
+group: first_conv_weight has 1 params, lr_mult: 1, decay_mult: 1
+group: normal_weight has 52 params, lr_mult: 1, decay_mult: 1
+group: BN scale/shift has 106 params, lr_mult: 1, decay_mult: 0
+group: lr5_weight has 1 params, lr_mult: 5, decay_mult: 1
+group: lr10_bias has 1 params, lr_mult: 10, decay_mult: 0
+video number:24777
+group: first_conv_weight has 1 params, lr_mult: 1, decay_mult: 1
+group: normal_weight has 52 params, lr_mult: 1, decay_mult: 1
+group: BN scale/shift has 106 params, lr_mult: 1, decay_mult: 0
+group: lr5_weight has 1 params, lr_mult: 5, decay_mult: 1
+group: lr10_bias has 1 params, lr_mult: 10, decay_mult: 0
+epoch: 1 step: 1319, loss is 4.830480098724365
+epoch: 1 step: 1319, loss is 4.89542293548584
+epoch: 1 step: 1319, loss is 5.0359063148498535
+epoch: 1 step: 1319, loss is 4.853448867797852
+epoch: 1 step: 1319, loss is 4.942243576049805
+epoch: 1 step: 1319, loss is 4.886453151702881
+epoch: 1 step: 1319, loss is 4.794874668121338
+epoch: 1 step: 1319, loss is 5.1007585525512695
+Train epoch time: 2629558.901 ms, per step time: 1993.600 ms
+Train epoch time: 2629561.025 ms, per step time: 1993.602 ms
+Train epoch time: 2629583.796 ms, per step time: 1993.619 ms
+Train epoch time: 2629457.068 ms, per step time: 1993.523 ms
+Train epoch time: 2642194.405 ms, per step time: 2003.180 ms
+Train epoch time: 2642738.492 ms, per step time: 2003.592 ms
+Train epoch time: 2642764.744 ms, per step time: 2003.612 ms
+Train epoch time: 2644856.623 ms, per step time: 2005.198 ms
+epoch: 2 step: 1319, loss is 4.8594865798950195
+epoch: 2 step: 1319, loss is 4.9697065353393555
+epoch: 2 step: 1319, loss is 4.934986591339111
+epoch: 2 step: 1319, loss is 4.960454940795898
+epoch: 2 step: 1319, loss is 5.099086761474609
+epoch: 2 step: 1319, loss is 4.971295356750488
+epoch: 2 step: 1319, loss is 4.972506523132324
+epoch: 2 step: 1319, loss is 4.866644382476807
+Train epoch time: 2592341.970 ms, per step time: 1965.384 ms
+Train epoch time: 2592354.488 ms, per step time: 1965.394 ms
+Train epoch time: 2592366.755 ms, per step time: 1965.403 ms
+Train epoch time: 2592419.852 ms, per step time: 1965.443 ms
+Train epoch time: 2588322.100 ms, per step time: 1962.337 ms
+Train epoch time: 2588007.311 ms, per step time: 1962.098 ms
+Train epoch time: 2586151.506 ms, per step time: 1960.691 ms
+Train epoch time: 2588963.821 ms, per step time: 1962.823 ms
+epoch: 3 step: 1319, loss is 4.888670444488525
+epoch: 3 step: 1319, loss is 5.0821685791015625
+epoch: 3 step: 1319, loss is 4.791149139404297
+epoch: 3 step: 1319, loss is 4.8052239418029785
+epoch: 3 step: 1319, loss is 5.214922904968262
+epoch: 3 step: 1319, loss is 4.8003926277160645
+epoch: 3 step: 1319, loss is 4.864688396453857
+epoch: 3 step: 1319, loss is 4.939391136169434
+Train epoch time: 2597783.303 ms, per step time: 1969.510 ms
+Train epoch time: 2597777.155 ms, per step time: 1969.505 ms
+Train epoch time: 2597797.373 ms, per step time: 1969.520 ms
+Train epoch time: 2598176.375 ms, per step time: 1969.808 ms
+Train epoch time: 2597935.464 ms, per step time: 1969.625 ms
+Train epoch time: 2598483.146 ms, per step time: 1970.040 ms
+Train epoch time: 2599689.236 ms, per step time: 1970.955 ms
+Train epoch time: 2599343.580 ms, per step time: 1970.693 ms
+epoch: 4 step: 1319, loss is 4.862522125244141
+epoch: 4 step: 1319, loss is 4.564985275268555
+epoch: 4 step: 1319, loss is 4.975184917449951
+epoch: 4 step: 1319, loss is 5.042396545410156
+epoch: 4 step: 1319, loss is 4.8735246658325195
+epoch: 4 step: 1319, loss is 4.983032703399658
+epoch: 4 step: 1319, loss is 5.112263202667236
+epoch: 4 step: 1319, loss is 5.16741943359375
+Train epoch time: 2588038.590 ms, per step time: 1962.122 ms
+Train epoch time: 2587999.334 ms, per step time: 1962.092 ms
+Train epoch time: 2587602.819 ms, per step time: 1961.791 ms
+Train epoch time: 2588047.988 ms, per step time: 1962.129 ms
+Train epoch time: 2587251.473 ms, per step time: 1961.525 ms
+Train epoch time: 2587554.352 ms, per step time: 1961.755 ms
+Train epoch time: 2585580.746 ms, per step time: 1960.258 ms
+Train epoch time: 2585898.269 ms, per step time: 1960.499 ms
+epoch: 5 step: 1319, loss is 5.080328941345215
+epoch: 5 step: 1319, loss is 5.0300703048706055
+epoch: 5 step: 1319, loss is 5.061537265777588
+epoch: 5 step: 1319, loss is 4.87861442565918
+epoch: 5 step: 1319, loss is 5.05789852142334
+epoch: 5 step: 1319, loss is 5.022411346435547
+epoch: 5 step: 1319, loss is 4.643882751464844
+epoch: 5 step: 1319, loss is 4.873623371124268
+Train epoch time: 2589199.979 ms, per step time: 1963.002 ms
+Train epoch time: 2589221.248 ms, per step time: 1963.018 ms
+Train epoch time: 2589193.673 ms, per step time: 1962.997 ms
+Train epoch time: 2589217.540 ms, per step time: 1963.016 ms
+Train epoch time: 2590682.089 ms, per step time: 1964.126 ms
+Train epoch time: 2591162.828 ms, per step time: 1964.490 ms
+Train epoch time: 2591868.254 ms, per step time: 1965.025 ms
+Train epoch time: 2592734.843 ms, per step time: 1965.682 ms
+epoch: 6 step: 1319, loss is 4.902132987976074
+epoch: 6 step: 1319, loss is 5.062525749206543
+epoch: 6 step: 1319, loss is 4.977438926696777
+epoch: 6 step: 1319, loss is 4.91696310043335
+epoch: 6 step: 1319, loss is 5.134487152099609
+epoch: 6 step: 1319, loss is 5.007513046264648
+epoch: 6 step: 1319, loss is 4.880945205688477
+epoch: 6 step: 1319, loss is 5.021653175354004
+Train epoch time: 2597928.398 ms, per step time: 1969.620 ms
+Train epoch time: 2598010.503 ms, per step time: 1969.682 ms
+Train epoch time: 2598007.175 ms, per step time: 1969.679 ms
+Train epoch time: 2598134.102 ms, per step time: 1969.776 ms
+Train epoch time: 2590907.658 ms, per step time: 1964.297 ms
+Train epoch time: 2595171.000 ms, per step time: 1967.529 ms
+Train epoch time: 2596129.306 ms, per step time: 1968.256 ms
+Train epoch time: 2595307.613 ms, per step time: 1967.633 ms
+epoch: 7 step: 1319, loss is 4.902095317840576
+epoch: 7 step: 1319, loss is 4.987103462219238
+epoch: 7 step: 1319, loss is 5.066043853759766
+epoch: 7 step: 1319, loss is 4.998879432678223
+epoch: 7 step: 1319, loss is 5.107661247253418
+epoch: 7 step: 1319, loss is 4.785526752471924
+epoch: 7 step: 1319, loss is 4.838653087615967
+epoch: 7 step: 1319, loss is 4.888998985290527
+Train epoch time: 2541598.661 ms, per step time: 1926.913 ms
+Train epoch time: 2541532.405 ms, per step time: 1926.863 ms
+Train epoch time: 2541571.689 ms, per step time: 1926.893 ms
+Train epoch time: 2541877.424 ms, per step time: 1927.125 ms
+Train epoch time: 2536788.909 ms, per step time: 1923.267 ms
+Train epoch time: 2536299.164 ms, per step time: 1922.895 ms
+Train epoch time: 2539912.488 ms, per step time: 1925.635 ms
+Train epoch time: 2536594.037 ms, per step time: 1923.119 ms
+epoch: 8 step: 1319, loss is 4.704695701599121
+epoch: 8 step: 1319, loss is 5.069433212280273
+epoch: 8 step: 1319, loss is 4.828236103057861
+epoch: 8 step: 1319, loss is 4.899331092834473
+epoch: 8 step: 1319, loss is 4.982156276702881
+epoch: 8 step: 1319, loss is 4.934992790222168
+epoch: 8 step: 1319, loss is 4.851783752441406
+epoch: 8 step: 1319, loss is 4.970067501068115
+Train epoch time: 2472471.082 ms, per step time: 1874.504 ms
+Train epoch time: 2472563.780 ms, per step time: 1874.575 ms
+Train epoch time: 2472585.145 ms, per step time: 1874.591 ms
+Train epoch time: 2472743.487 ms, per step time: 1874.711 ms
+Train epoch time: 2470485.470 ms, per step time: 1872.999 ms
+Train epoch time: 2471047.477 ms, per step time: 1873.425 ms
+Train epoch time: 2471499.480 ms, per step time: 1873.768 ms
+Train epoch time: 2472244.397 ms, per step time: 1874.332 ms
+epoch: 9 step: 1319, loss is 4.945144176483154
+epoch: 9 step: 1319, loss is 4.805136680603027
+epoch: 9 step: 1319, loss is 5.060379981994629
+epoch: 9 step: 1319, loss is 4.603981971740723
+epoch: 9 step: 1319, loss is 5.197245121002197
+epoch: 9 step: 1319, loss is 4.894288063049316
+epoch: 9 step: 1319, loss is 5.002846717834473
+epoch: 9 step: 1319, loss is 5.173784255981445
+Train epoch time: 2466970.222 ms, per step time: 1870.334 ms
+Train epoch time: 2467498.514 ms, per step time: 1870.734 ms
+Train epoch time: 2467057.884 ms, per step time: 1870.400 ms
+Train epoch time: 2467424.540 ms, per step time: 1870.678 ms
+Train epoch time: 2471147.159 ms, per step time: 1873.500 ms
+Train epoch time: 2472955.578 ms, per step time: 1874.872 ms
+Train epoch time: 2473254.145 ms, per step time: 1875.098 ms
+Train epoch time: 2474359.843 ms, per step time: 1875.936 ms
+epoch: 10 step: 1319, loss is 5.072949409484863
+epoch: 10 step: 1319, loss is 4.929384708404541
+epoch: 10 step: 1319, loss is 5.0516743659973145
+epoch: 10 step: 1319, loss is 4.900210857391357
+epoch: 10 step: 1319, loss is 4.973222732543945
+epoch: 10 step: 1319, loss is 4.979010581970215
+epoch: 10 step: 1319, loss is 4.847640037536621
+epoch: 10 step: 1319, loss is 4.879172325134277
+Train epoch time: 2472631.915 ms, per step time: 1874.626 ms
+Train epoch time: 2472668.333 ms, per step time: 1874.654 ms
+Train epoch time: 2472881.887 ms, per step time: 1874.816 ms
+Train epoch time: 2472904.193 ms, per step time: 1874.833 ms
+Train epoch time: 2469381.498 ms, per step time: 1872.162 ms
+Train epoch time: 2468083.360 ms, per step time: 1871.178 ms
+Train epoch time: 2470290.019 ms, per step time: 1872.851 ms
+Train epoch time: 2469778.837 ms, per step time: 1872.463 ms
+epoch: 11 step: 1319, loss is 5.14454460144043
+epoch: 11 step: 1319, loss is 4.969527244567871
+epoch: 11 step: 1319, loss is 4.973390102386475
+epoch: 11 step: 1319, loss is 4.902713775634766
+epoch: 11 step: 1319, loss is 4.921168327331543
+epoch: 11 step: 1319, loss is 4.838727951049805
+epoch: 11 step: 1319, loss is 4.889291763305664
+epoch: 11 step: 1319, loss is 4.970795631408691
+Train epoch time: 2468588.043 ms, per step time: 1871.560 ms
+Train epoch time: 2468664.907 ms, per step time: 1871.619 ms
+Train epoch time: 2468389.202 ms, per step time: 1871.410 ms
+Train epoch time: 2468727.243 ms, per step time: 1871.666 ms
+Train epoch time: 2467523.937 ms, per step time: 1870.754 ms
+Train epoch time: 2468848.081 ms, per step time: 1871.757 ms
+Train epoch time: 2468647.054 ms, per step time: 1871.605 ms
+Train epoch time: 2469643.430 ms, per step time: 1872.360 ms
+epoch: 12 step: 1319, loss is 4.96685791015625
+epoch: 12 step: 1319, loss is 4.9454450607299805
+epoch: 12 step: 1319, loss is 5.083715915679932
+epoch: 12 step: 1319, loss is 5.0120463371276855
+epoch: 12 step: 1319, loss is 4.809437274932861
+epoch: 12 step: 1319, loss is 5.2198920249938965
+epoch: 12 step: 1319, loss is 4.94175910949707
+epoch: 12 step: 1319, loss is 4.927374839782715
+Train epoch time: 2462882.335 ms, per step time: 1867.235 ms
+Train epoch time: 2462882.189 ms, per step time: 1867.234 ms
+Train epoch time: 2462707.500 ms, per step time: 1867.102 ms
+Train epoch time: 2463774.401 ms, per step time: 1867.911 ms
+Train epoch time: 2463658.053 ms, per step time: 1867.823 ms
+Train epoch time: 2463270.829 ms, per step time: 1867.529 ms
+Train epoch time: 2463577.247 ms, per step time: 1867.761 ms
+Train epoch time: 2464818.466 ms, per step time: 1868.702 ms
+epoch: 13 step: 1319, loss is 5.039370059967041
+epoch: 13 step: 1319, loss is 5.127219200134277
+epoch: 13 step: 1319, loss is 5.183285713195801
+epoch: 13 step: 1319, loss is 4.652680397033691
+epoch: 13 step: 1319, loss is 5.119677543640137
+epoch: 13 step: 1319, loss is 5.181962013244629
+epoch: 13 step: 1319, loss is 5.076033592224121
+epoch: 13 step: 1319, loss is 4.989806652069092
+Train epoch time: 2475112.844 ms, per step time: 1876.507 ms
+Train epoch time: 2475234.814 ms, per step time: 1876.600 ms
+Train epoch time: 2474433.378 ms, per step time: 1875.992 ms
+Train epoch time: 2475380.389 ms, per step time: 1876.710 ms
+Train epoch time: 2471338.447 ms, per step time: 1873.646 ms
+Train epoch time: 2473260.557 ms, per step time: 1875.103 ms
+Train epoch time: 2470326.240 ms, per step time: 1872.878 ms
+Train epoch time: 2474362.450 ms, per step time: 1875.938 ms
+epoch: 14 step: 1319, loss is 4.90858268737793
+epoch: 14 step: 1319, loss is 4.862048149108887
+epoch: 14 step: 1319, loss is 4.903318405151367
+epoch: 14 step: 1319, loss is 4.773622512817383
+epoch: 14 step: 1319, loss is 4.872633457183838
+epoch: 14 step: 1319, loss is 4.738492012023926
+epoch: 14 step: 1319, loss is 4.4723591804504395
+epoch: 14 step: 1319, loss is 4.947846412658691
+Train epoch time: 2467061.463 ms, per step time: 1870.403 ms
+Train epoch time: 2467292.121 ms, per step time: 1870.578 ms
+Train epoch time: 2466932.696 ms, per step time: 1870.305 ms
+Train epoch time: 2467141.748 ms, per step time: 1870.464 ms
+Train epoch time: 2471105.663 ms, per step time: 1873.469 ms
+Train epoch time: 2470326.524 ms, per step time: 1872.878 ms
+Train epoch time: 2471798.077 ms, per step time: 1873.994 ms
+Train epoch time: 2472332.144 ms, per step time: 1874.399 ms
+epoch: 15 step: 1319, loss is 5.03281831741333
+epoch: 15 step: 1319, loss is 4.876420497894287
+epoch: 15 step: 1319, loss is 5.009328365325928
+epoch: 15 step: 1319, loss is 5.0569915771484375
+epoch: 15 step: 1319, loss is 4.842878818511963
+epoch: 15 step: 1319, loss is 4.981649875640869
+epoch: 15 step: 1319, loss is 4.822637557983398
+epoch: 15 step: 1319, loss is 5.003527641296387
+Train epoch time: 2470614.852 ms, per step time: 1873.097 ms
+Train epoch time: 2470625.974 ms, per step time: 1873.105 ms
+Train epoch time: 2470649.067 ms, per step time: 1873.123 ms
+Train epoch time: 2470680.231 ms, per step time: 1873.146 ms
+Train epoch time: 2468221.646 ms, per step time: 1871.283 ms
+Train epoch time: 2468507.350 ms, per step time: 1871.499 ms
+Train epoch time: 2467681.421 ms, per step time: 1870.873 ms
+Train epoch time: 2470632.149 ms, per step time: 1873.110 ms
+epoch: 16 step: 1319, loss is 4.819941997528076
+epoch: 16 step: 1319, loss is 4.797449111938477
+epoch: 16 step: 1319, loss is 5.219015121459961
+epoch: 16 step: 1319, loss is 5.020092010498047
+epoch: 16 step: 1319, loss is 5.03975772857666
+epoch: 16 step: 1319, loss is 5.269183158874512
+epoch: 16 step: 1319, loss is 5.199379920959473
+epoch: 16 step: 1319, loss is 5.002530574798584
+Train epoch time: 2470819.729 ms, per step time: 1873.252 ms
+Train epoch time: 2470831.646 ms, per step time: 1873.261 ms
+Train epoch time: 2470879.876 ms, per step time: 1873.298 ms
+Train epoch time: 2470820.991 ms, per step time: 1873.253 ms
+Train epoch time: 2470002.513 ms, per step time: 1872.633 ms
+Train epoch time: 2470865.448 ms, per step time: 1873.287 ms
+Train epoch time: 2468425.669 ms, per step time: 1871.437 ms
+Train epoch time: 2471312.771 ms, per step time: 1873.626 ms
+epoch: 17 step: 1319, loss is 5.058375835418701
+epoch: 17 step: 1319, loss is 4.7357563972473145
+epoch: 17 step: 1319, loss is 5.129486083984375
+epoch: 17 step: 1319, loss is 4.753620147705078
+epoch: 17 step: 1319, loss is 4.888463973999023
+epoch: 17 step: 1319, loss is 4.826325416564941
+epoch: 17 step: 1319, loss is 4.797710418701172
+epoch: 17 step: 1319, loss is 4.747467041015625
+Train epoch time: 2473341.736 ms, per step time: 1875.164 ms
+Train epoch time: 2473360.258 ms, per step time: 1875.178 ms
+Train epoch time: 2473413.156 ms, per step time: 1875.218 ms
+Train epoch time: 2473404.972 ms, per step time: 1875.212 ms
+Train epoch time: 2470861.002 ms, per step time: 1873.284 ms
+Train epoch time: 2472085.409 ms, per step time: 1874.212 ms
+Train epoch time: 2472028.251 ms, per step time: 1874.168 ms
+Train epoch time: 2473361.997 ms, per step time: 1875.180 ms
+epoch: 18 step: 1319, loss is 5.1052446365356445
+epoch: 18 step: 1319, loss is 4.9291205406188965
+epoch: 18 step: 1319, loss is 5.08831787109375
+epoch: 18 step: 1319, loss is 4.882676124572754
+epoch: 18 step: 1319, loss is 5.113701820373535
+epoch: 18 step: 1319, loss is 5.04332160949707
+epoch: 18 step: 1319, loss is 4.903555393218994
+epoch: 18 step: 1319, loss is 4.9518327713012695
+Train epoch time: 2466598.849 ms, per step time: 1870.052 ms
+Train epoch time: 2466627.757 ms, per step time: 1870.074 ms
+Train epoch time: 2466601.927 ms, per step time: 1870.055 ms
+Train epoch time: 2466636.004 ms, per step time: 1870.080 ms
+Train epoch time: 2469363.167 ms, per step time: 1872.148 ms
+Train epoch time: 2469052.700 ms, per step time: 1871.913 ms
+Train epoch time: 2467695.325 ms, per step time: 1870.883 ms
+Train epoch time: 2468361.401 ms, per step time: 1871.388 ms
+epoch: 19 step: 1319, loss is 5.172717571258545
+epoch: 19 step: 1319, loss is 5.0654802322387695
+epoch: 19 step: 1319, loss is 4.913105010986328
+epoch: 19 step: 1319, loss is 4.9273223876953125
+epoch: 19 step: 1319, loss is 4.610531806945801
+epoch: 19 step: 1319, loss is 5.007696628570557
+epoch: 19 step: 1319, loss is 5.0919084548950195
+epoch: 19 step: 1319, loss is 4.79837703704834
+Train epoch time: 2468450.363 ms, per step time: 1871.456 ms
+Train epoch time: 2468498.087 ms, per step time: 1871.492 ms
+Train epoch time: 2468508.534 ms, per step time: 1871.500 ms
+Train epoch time: 2468556.321 ms, per step time: 1871.536 ms
+Train epoch time: 2466882.159 ms, per step time: 1870.267 ms
+Train epoch time: 2467481.152 ms, per step time: 1870.721 ms
+Train epoch time: 2468133.346 ms, per step time: 1871.216 ms
+Train epoch time: 2468157.970 ms, per step time: 1871.234 ms
+epoch: 20 step: 1319, loss is 5.264771461486816
+epoch: 20 step: 1319, loss is 5.278437614440918
+epoch: 20 step: 1319, loss is 4.801697254180908
+epoch: 20 step: 1319, loss is 4.862637519836426
+epoch: 20 step: 1319, loss is 4.709685325622559
+epoch: 20 step: 1319, loss is 4.802010536193848
+epoch: 20 step: 1319, loss is 5.103712558746338
+epoch: 20 step: 1319, loss is 4.904365062713623
+Train epoch time: 2466441.564 ms, per step time: 1869.933 ms
+Train epoch time: 2466466.226 ms, per step time: 1869.952 ms
+Train epoch time: 2466513.903 ms, per step time: 1869.988 ms
+Train epoch time: 2466571.957 ms, per step time: 1870.032 ms
+Train epoch time: 2466584.949 ms, per step time: 1870.042 ms
+Train epoch time: 2467656.046 ms, per step time: 1870.854 ms
+Train epoch time: 2465782.706 ms, per step time: 1869.433 ms
+Train epoch time: 2467707.949 ms, per step time: 1870.893 ms
+epoch: 21 step: 1319, loss is 5.2303853034973145
+epoch: 21 step: 1319, loss is 5.170566558837891
+epoch: 21 step: 1319, loss is 4.933614730834961
+epoch: 21 step: 1319, loss is 4.74990701675415
+epoch: 21 step: 1319, loss is 4.965855598449707
+epoch: 21 step: 1319, loss is 4.760052680969238
+epoch: 21 step: 1319, loss is 5.022347927093506
+epoch: 21 step: 1319, loss is 5.132059097290039
+Train epoch time: 2471497.984 ms, per step time: 1873.766 ms
+Train epoch time: 2471520.094 ms, per step time: 1873.783 ms
+Train epoch time: 2471551.877 ms, per step time: 1873.807 ms
+Train epoch time: 2472101.573 ms, per step time: 1874.224 ms
+Train epoch time: 2471556.059 ms, per step time: 1873.811 ms
+Train epoch time: 2470015.107 ms, per step time: 1872.642 ms
+Train epoch time: 2472950.235 ms, per step time: 1874.868 ms
+Train epoch time: 2472198.349 ms, per step time: 1874.297 ms
